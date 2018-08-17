@@ -1,0 +1,22 @@
+h3, h4 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, .6);
+}
+
+.song-details {
+    background-color: rgba(255, 255, 255, .4);
+    padding: 25px;
+    width: 75%;
+}
+
+.song-item {
+    margin: 5px 20px;
+}
+
+.form-group {
+    margin: 30px 5px;
+}
+
+#count {
+    margin-top: 20px;
+}
