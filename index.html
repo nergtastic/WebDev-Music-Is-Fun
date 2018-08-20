@@ -13,7 +13,7 @@
 <body>
     <form class="form-inline sticky-top bg-dark " onsubmit="app.controllers.itunesCtrl.getMusic(event)">
         <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-        <div class="form-group mx-auto col-md-4 offset-md-4"">
+        <div class="form-group mx-auto col-md-4 offset-md-4">
             <br />
             <div style="margin-bottom: 25px; width: 100%; text-align: center;">
                 <input type="text" class="form-control" name="artist" id="artist" placeholder="Artist Name" />
@@ -24,6 +24,14 @@
     </form>
     <table class="table col-md-8 offset-md-2">
     <tbody id="songs">
+        <div class="row" id="init">
+            <div class="col-md-4 offset-md-2" style="display: inline-block;">
+                <h2 class="text-center" style="margin-top: 33vh;" >Enter an artist or song name above to search for some killer tunes.</h2>
+            </div>
+            <div class="col-md-4">
+                <img style="width: 700px" src="musicisfun.png">
+            </div>
+        </div>
         <!--Songs will be added here programmatically-->
     </tbody> 
     </table> 

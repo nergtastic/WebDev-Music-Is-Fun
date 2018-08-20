@@ -7,6 +7,7 @@ function ItunesController() {
     console.log(results)
     //YOUR CODING STARTS HERE
     let template = ``
+    document.getElementById('init').style.display = "none"
     document.getElementById('count').innerText = "Showing " + results.length + " results for: " + document.getElementById('artist').value
     for(let i=0; i < results.length; i++){
       const song = results[i];
